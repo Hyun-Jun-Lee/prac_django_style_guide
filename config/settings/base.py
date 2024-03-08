@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
-LOCAL_APPS = []
+LOCAL_APPS = ["core.apps.CoreConfig", "users.apps.UsersConfig"]
 
 THIRD_PARTY_APPS = [
     "rest_framework",
